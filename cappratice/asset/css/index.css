@@ -23,8 +23,8 @@
     #271a00 0.45%,
     rgba(0, 0, 0, 0.982162) 45.25%
   );
-  --bar-width: 60px;
-  --bar-height: 6px;
+  --bar-width: 40px;
+  --bar-height: 4px;
   --bar-radius: 50px;
   --hamburger-gap: 6px;
   --hamburger-margin: 8px;
@@ -44,6 +44,7 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
+  right: 20px;
   }
   .bar .middle{
   height: var(--bar-height);
@@ -55,7 +56,7 @@
   }
   
   .bar .top{
-  bottom: 14px;
+  bottom: 10px;
   height: var(--bar-height);
   width: var(--bar-width);
   background: var(--btntext-color);
@@ -65,7 +66,7 @@
   }
   
   .bar .bottom{
-  top: 20px;
+  top: 15px;
   height: var(--bar-height);
   width: var(--bar-width);
   background: var(--btntext-color);
@@ -93,7 +94,7 @@
   }
 
 main {
-  background-image: url(/asset/images/Object.png);
+  background-image: url(/cappratice/asset/images/Object.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

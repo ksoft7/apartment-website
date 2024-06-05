@@ -75,6 +75,7 @@
     gap: 12px;
   }
 }
+
 @media (max-width: 576px) {
   .clients {
     width: 90%;
@@ -182,17 +183,16 @@
     margin-bottom: 20px;
   }
 }
+
 @media (max-width: 422px) {
   .Content-people-Repeat {
     align-items: center;
     margin: 0 auto;
     width: 90%;
   }
-  .image-repeat img {
-    width: 392px;
-    height: 500px;
-  }
+  
 }
+
 @media (max-width: 900px) {
   .box-styling {
     display: grid;
@@ -248,6 +248,7 @@
     font-size: 2vw;
   }
 }
+
 @media (max-width: 376px) {
   .card-flex {
     display: grid;
@@ -280,11 +281,22 @@
     padding: 20px;
     gap: 6px;
   }
+  .footer-columns {
+    flex: 5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 12px;
+  }
   .footer-headings h1 {
     white-space: nowrap;
   }
+  .content-links h3 {
+    font-size: 4vw;
+    margin-left: -15px;
+  }
   .content-links p {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
   .work-btn {
     border: none;
@@ -293,6 +305,7 @@
     white-space: nowrap;
   }
 }
+
 @media (max-width: 1025px) {
   nav ul,
   li,
@@ -326,6 +339,7 @@
     font-size: 1.6vw;
   }
 }
+
 @media (min-width: 1440px) {
   main {
     height: 100vh;
@@ -369,6 +383,7 @@
     font-size: 2vw;
   }
 }
+
 @media (min-width: 1440px) {
   .content-people-text-1 h1 {
     font-size: 5vw;
@@ -486,6 +501,7 @@
     width: 20px;
   }
 }
+
 @media (max-width: 909px) {
   nav ul,
   li,
@@ -501,6 +517,7 @@
     width: 8em;
   }
 }
+
 @media (max-width: 700px) {
   nav ul,
   li,
@@ -514,6 +531,7 @@
     display: block;
   }
 }
+
 @media (max-width: 448px) {
   .Hero-section {
     width: 100%;
@@ -540,6 +558,7 @@
     font-size: 3.5vw;
   }
 }
+
 @media (max-width: 768px) {
   .content-button {
     width: 10em;
@@ -569,15 +588,21 @@
     width: 1.5em;
   }
 }
+
 @media (max-width: 442px) {
   .width-line {
     width: 100%;
     margin-left: 22px;
   }
-  .image-repeat-3 img {
-    width: 90%;
-    margin-left: -23px;
+  .image-repeat-3  {
+    width: 95%;
   }
+  .image-repeat-3 img {
+    width: 100%;
+    margin-left: -15px;
+  }
+
+
   .Content-people-Repeat-container {
     display: grid;
   }
@@ -692,6 +717,7 @@
     font-size: 0.8em;
   }
 }
+
 @media (max-width: 320px) {
   .section-4-heading h2 {
     font-size: 1.8em;
@@ -750,6 +776,7 @@
     left: 98px;
   }
 }
+
 @media (max-width: 2561px) {
   .content-clients-text {
     padding-left: 16px;
