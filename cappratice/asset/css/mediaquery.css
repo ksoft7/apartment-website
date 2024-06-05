@@ -589,7 +589,7 @@
   }
 }
 
-@media (max-width: 442px) {
+@media (max-width: 443px) {
   .width-line {
     width: 100%;
     margin-left: 22px;
@@ -598,8 +598,8 @@
     width: 95%;
   }
   .image-repeat-3 img {
-    width: 100%;
-    margin-left: -15px;
+    width: 90%;
+    margin-left: -5px;
   }
 
 
